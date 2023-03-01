@@ -5,9 +5,4 @@ class Tablero():
         for i in tablero:
             print(i)
 
-def cambiodeturno(turno):
-    if (turno == 'X'):
-        turno = 'O'
-    else:
-        turno = 'X'
-    return turno
+
